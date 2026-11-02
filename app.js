@@ -10,6 +10,10 @@ app.get("/api",(req,res)=>{
     res.send("Thi is second api route");
 });
 
+app.get("/index",(req,res)=>{
+    res.send("This is index route");
+});
+
 app.listen(port,"0.0.0.0",()=>{
     console.log("server is live");
 
